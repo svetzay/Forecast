@@ -1,0 +1,47 @@
+// main: ../style.less
+@import "../vars.less";
+
+.card-wrap {
+  display: flex;
+  background-color: @white;
+}
+
+.card {
+  width: 230px;
+  text-align: center;
+  background-color: @background;
+  margin-top: 5px;
+  border: none;
+  border-radius: 0px;
+
+  &:not(:last-child) {
+    margin-right: 5px;
+  }
+
+  &:first-child {
+    border-bottom-left-radius: 8px;
+  }
+
+  &:last-child {
+    border-bottom-right-radius: 8px;
+  }
+}
+
+.card-title {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 25px 0;
+}
+
+.icon-style {
+  font-size: 100px;
+  color: @blue;
+}
+
+.card-temperature {
+  margin: 0;
+  font-family: "Teko", sans-serif;
+  font-size: 50px;
+  padding: 0 0 15px;
+}
