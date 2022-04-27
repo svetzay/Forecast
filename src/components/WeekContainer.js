@@ -1,7 +1,7 @@
 import React from "react";
 import Main from "./Main";
 
-const CITIES = ["Ottawa", "Moscow", "Tokyo"];
+const CITIES = ["Ottawa", "Paris", "Tokyo"];
 
 class WeekContainer extends React.Component {
   state = {
